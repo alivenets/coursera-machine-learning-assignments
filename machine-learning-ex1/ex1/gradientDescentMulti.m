@@ -23,7 +23,7 @@ for iter = 1:num_iters
         theta_new(i) -= alpha / m * sum((X * theta - y) .* X(:,i));
     end
 
-    theta = theta_new
+    theta = theta_new;
 
     % ============================================================
 
